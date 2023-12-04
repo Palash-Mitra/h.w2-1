@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+</head>
+<body>
+    <h1> Sign up </h1>
+    <p>It' Quick and Easy</p>
+    <form action="*#" method="post">
+        <label for="user">First Name:</label><br>
+        <input type="text" name="user" id="user" placeholder="First Name" required>
+        <br>
+        <label for="user">Surname:</label><br>
+        <input type="text" name="user" id="user" placeholder="Last name" required>
+        <br>
+        <label for="email"> Email:</label><br>
+        <input type="email" id="email" name="usermail" placeholder="Usermail" required>
+        <br>
+        <label for="Password">Password:</label><br>
+        <input type="password" id="Password" name="Password" placeholder="New Password">
+        <br>
+        <label for="Number"> Mobile Number:</label><br>
+        <select name="code">
+            <option value="+880">+880</option>
+            <option value="=990">+990</option>
+            <option value="+110">+110</option>
+            <option value="+997">+997</option>
+        </select>
+        <input type="Number" id="Number" name="phone" placeholder="Mobile Number">
+        <br><br>
+        <label for="country"> Country:</label>
+        <input list="country">
+        <datalist id="country">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="Dubai"></option>
+            <option value="China"></option>
+            <option value="Nepal"></option>
+        </datalist><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="gnd" name="Gender">
+        <label for="gnd2">Male</label>
+        <input type="radio" id="gnd2" name="Gender">
+        <label for="gnd2">Female</label>
+        <input type="radio" id="gnd3" name="Gender">
+        <label for="gnd3">Others</label>
+        <br>
+<br>
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date" name="date" placeholder="Birth Date">
+        
+        <p>Hobbies:</p>
+        <input type="checkbox" id="h1" name="Hobbies">
+        <label for="h1">Programming</label><br>
+        <input type="checkbox" id="h2" name="Hobbies">
+        <label for="h2">Reading Books</label><br>
+        <input type="checkbox" id="h3" name="Hobbies">
+        <label for="h3">Gardening</label><br>
+        <input type="checkbox" id="h4" name="Hobbies">
+        <label for="h4">Traveling</label><br>
+        <br>
+       <b> Choose a image for Bio:</b><br>
+        <label for="file">Choose Photo...</label>
+        <input type="file" id="file" name="file">
+        
+
+
+
+    </form>
+    <p>People who use our service may have uploaded your contact information to Facebook. <a href="https://web.facebook.com/help/637205020878504">Learn More</a></p>
+    <br>
+    <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+ <br>
+ <button>Sign Up</button>        <button>I have already an account</button>
+</body>
+</html>
